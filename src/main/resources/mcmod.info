@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ianusinchq",
+  "name": "Ianus Inc HQ",
+  "description": "A Mod about the company with the two faces, whioh is all white in public but send its employees on suicide missions",
+  "version": "${0.0.1}",
+  "mcversion": "${1.12}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Merlin4711/ConfusedMerlin"],
+  "credits": "MC Forge for making this possible (but quite not for their explaining work ;)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

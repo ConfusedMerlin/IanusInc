@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ASA",
+    "ACA",
+    "ASA"
+  ],
+  "key": {
+    "S": {
+      "item": "ianusinchq:tutorial_ingot"
+    },
+    "A":
+      {
+        "item": "ianusinchq:tutorial_nugget"
+      },
+    "C":
+    {
+      "item": "minecraft:sand",
+      "data": 0
+    }
+
+  },
+  "result": {
+    "item": "ianusinchq:tutorial_ore",
+    "data": 0
+  }
+}

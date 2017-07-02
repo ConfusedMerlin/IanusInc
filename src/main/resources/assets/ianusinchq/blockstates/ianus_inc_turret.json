@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facung=up":    {"model": "ianusinchq:block/ianus_inc_turret" },
+    "facing=east":  {"model": "ianusinchq:ianus_inc_turret","y":"0","x":"90" },
+    "facing=south": {"model": "ianusinchq:ianus_inc_turret","y":"90","x":"90" },
+    "facing=west":  {"model": "ianusinchq:ianus_inc_turret","y":"180","x":"90" },
+    "facing=north": {"model": "ianusinchq:ianus_inc_turret","y":"270","x":"90" },
+    "facing=down":  {"model": "ianusinchq:ianus_inc_turret","y":"0","x":"180" }
+  }
+}
