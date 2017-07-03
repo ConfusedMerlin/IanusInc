@@ -18,4 +18,12 @@ public class CustomBlock extends Block{
 
 
     }
+
+    public CustomBlock(String name, float hardness, float resistance, Material mat){
+        super(mat);
+        setUnlocalizedName(name);
+        setRegistryName(name);
+        setHardness(hardness);
+        setResistance(resistance)
+    }
 }

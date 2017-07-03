@@ -1,5 +1,5 @@
 {
   "variants": {
-    "normal": {"model": "ianusinchq:block/tutorial_ore" }
+    "normal": {"model": "ianusinchq:tutorial_ore" }
   }
 }
