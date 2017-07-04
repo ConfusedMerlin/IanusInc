@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"description": "ianus inc small super condensator",
-	"parent": "block/cube_all",
+	"parent": "minecraft:block/block",
 	"textures": {
 		"0": "ianusinchq:blocks/building/ianus_inc_textile_concrete",
 		"1": "ianusinchq:blocks/ianus_inc_condensator/attachhere",
