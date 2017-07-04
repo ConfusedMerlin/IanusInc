@@ -24,6 +24,6 @@ public class CustomBlock extends Block{
         setUnlocalizedName(name);
         setRegistryName(name);
         setHardness(hardness);
-        setResistance(resistance)
+        setResistance(resistance);
     }
 }

@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"description": "ianus_inc_turret",
-	"parent": "block/cube_all",
+	"parent": "block/block",
 	"textures": {
 		"0": "ianusinchq:blocks/ianus_inc_turret/grey_metal",
 		"1": "ianusinchq:blocks/ianus_inc_turret/dark_grey_metal",

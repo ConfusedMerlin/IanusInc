@@ -13,8 +13,9 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.util.logging.Logger;
 
 /**
  * Created by Seine Eiligkeit on 29.06.2017.
@@ -22,7 +23,7 @@ import java.util.logging.Logger;
 @Mod(modid=Reference.MODID, name=Reference.NAME, version=Reference.VERSION)
 public class IanusIncHq {
 
-    public static Logger LOGGER = Logger.getLogger(Reference.MODID);
+    public static Logger LOGGER = LogManager.getLogger(Reference.MODID);
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
