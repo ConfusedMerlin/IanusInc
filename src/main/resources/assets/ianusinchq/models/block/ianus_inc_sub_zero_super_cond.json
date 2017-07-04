@@ -5,6 +5,7 @@
 		"1": "ianusinchq:blocks/ianus_inc_sub_zero_super_cond/subzeroconmiddle",
 		"particle": "ianusinchq:blocks/ianus_inc_sub_zero_super_cond/subzeroconcorner"
 	},
+	"parent": "minecraft:block/block",
 	"elements": [
 		{
 			"name": "cube",
