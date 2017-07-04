@@ -30,6 +30,7 @@ public class BlockInit {
     public static Block ianus_inc_quantum_core;
     public static Block ianus_inc_holo_common_passable;
     public static Block ianus_inc_holo_common_unpassable;
+    public static Block ianus_inc_holo_common_repulsor;
 
 
     public static ArrayList<Block> blockList = new ArrayList<>();
@@ -48,6 +49,7 @@ public class BlockInit {
         ianus_inc_quantum_core = new IanusIncQuantumCore("ianus_inc_quantum_core",100F,50000F, 4);
         ianus_inc_holo_common_passable = new IanusIncHolographicDemonstrator("ianus_inc_holo_common_passable",1F,100000F, 4);
         ianus_inc_holo_common_unpassable = new IanusIncHolographicBlocker("ianus_inc_holo_common_unpassable",1F,5, 1);
+        ianus_inc_holo_common_repulsor = new IanusIncHolographicRepulsor("ianus_inc_holo_common_repulsor",1F,5, 1);
 
         ItemInit.addItemBlockToItems(tutorial_ore);
         ItemInit.addItemBlockToItems(ianus_inc_turret);
@@ -60,6 +62,7 @@ public class BlockInit {
         ItemInit.addItemBlockToItems(ianus_inc_quantum_core);
         ItemInit.addItemBlockToItems(ianus_inc_holo_common_passable);
         ItemInit.addItemBlockToItems(ianus_inc_holo_common_unpassable);
+        ItemInit.addItemBlockToItems(ianus_inc_holo_common_repulsor);
 
 
         blockList.add(tutorial_ore);
@@ -73,6 +76,7 @@ public class BlockInit {
         blockList.add(ianus_inc_quantum_core);
         blockList.add(ianus_inc_holo_common_passable);
         blockList.add(ianus_inc_holo_common_unpassable);
+        blockList.add(ianus_inc_holo_common_repulsor);
     }
 
     public static void registerBlocks(RegistryEvent.Register<Block> event){

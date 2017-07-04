@@ -15,7 +15,7 @@ public class IanusIncHolographicMaterial extends Material {
 
         super(color);
         this.setReplaceable();
-        this.setRequiresTool();
+        //this.setRequiresTool();
 
     }
 
@@ -27,7 +27,7 @@ public class IanusIncHolographicMaterial extends Material {
 
     @Override
     public EnumPushReaction getMobilityFlag() {
-        return EnumPushReaction.BLOCK;
+        return EnumPushReaction.DESTROY;
     }
 
     @Override

@@ -8,17 +8,21 @@ import net.minecraft.creativetab.CreativeTabs;
 /**
  * Created by Seine Eiligkeit on 29.06.2017.
  */
-public class IanusIncHolographicDemonstrator extends IanusIncCommonHolographicBlock
+public class IanusIncHolographicDemonstrator extends IanusIncCommonHolographicBlock implements IHoloBlock
 {
 
     protected final Material blockMaterial = new IanusIncHolographicMaterial(MapColor.CYAN);
 
     public IanusIncHolographicDemonstrator(String name, float hardness, float resistance, int harvestLevel){
-        super(name,hardness,resistance);
-        setHarvestLevel("pickaxe",harvestLevel);
+        super(name,hardness,resistance,harvestLevel);
+
 
 
 
     }
 
+    @Override
+    public int getFadeTime() {
+        return 2;
+    }
 }

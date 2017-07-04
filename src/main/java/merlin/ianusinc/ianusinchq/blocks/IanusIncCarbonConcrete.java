@@ -1,5 +1,6 @@
 package merlin.ianusinc.ianusinchq.blocks;
 
+
 import net.minecraft.creativetab.CreativeTabs;
 
 /**
@@ -11,5 +12,6 @@ public class IanusIncCarbonConcrete extends CustomBlock
         super(name,hardness,resistance);
         setHarvestLevel("pickaxe",harvestLevel);
         setCreativeTab(CreativeTabs.MISC);
+
     }
 }

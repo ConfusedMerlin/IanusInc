@@ -10,3 +10,5 @@ tile.ianus_inc_sub_zero_super_cond.name=Sub Zero Super Conductor
 tile.ianus_inc_quantum_magnet.name=Quantum Magnet Hull
 tile.ianus_inc_quantum_core.name=Stable Quantum Core
 tile.ianus_inc_holo_common_passable.name=Demonstrator Hologram
+tile.ianus_inc_holo_common_unpassable.name=Demonstrator Block-O-Gram
+tile.ianus_inc_holo_common_repulsor.name=Demonstrator Repulsor Hologram

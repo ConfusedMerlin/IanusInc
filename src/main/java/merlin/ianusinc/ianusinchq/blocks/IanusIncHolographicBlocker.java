@@ -11,14 +11,18 @@ import net.minecraft.world.IBlockAccess;
 /**
  * Created by Seine Eiligkeit on 29.06.2017.
  */
-public class IanusIncHolographicBlocker extends IanusIncCommonHolographicBlock
+public class IanusIncHolographicBlocker extends IanusIncCommonHolographicBlock implements IHoloBlock
 {
 
     protected final Material blockMaterial = new IanusIncHolographicMaterial(MapColor.CYAN);
 
     public IanusIncHolographicBlocker(String name, float hardness, float resistance, int harvestLevel){
-        super(name,hardness,resistance);
-        setHarvestLevel("pickaxe",harvestLevel);
+        super(name,hardness,resistance,harvestLevel);
         this.setCorporal(true);
+    }
+
+    @Override
+    public int getFadeTime() {
+        return 5;
     }
 }
