@@ -26,7 +26,7 @@ public class IanusIncCommonHolographicBlock extends CustomBlock
 
     private static Material myMaterial = new IanusIncHolographicMaterial(MapColor.CYAN);
     private boolean isCorporalHologram = false;
-    protected static final AxisAlignedBB TOP_AABB = new AxisAlignedBB(0.9D, 0.9D, 0.9D, 0.1D, 0.1D, 0.1D);
+    protected static final AxisAlignedBB TOP_AABB = new AxisAlignedBB(0.05D, 0.05D, 0.05D, 0.95D, 0.95D, 0.95D);
 
 //TODO Das blöde Material an den Konstruktor durchreichen!
 
