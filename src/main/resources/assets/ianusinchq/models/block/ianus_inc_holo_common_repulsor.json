@@ -2,7 +2,9 @@
 {
 	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
 	"parent": "minecraft:block/block",
-	"textures": {"0": "ianusinchq:blocks/ianus_inc_holo/holorepulsor"},
+	"textures": {"0": "ianusinchq:blocks/ianus_inc_holo/holorepulsor",
+		"particle": "ianusinchq:blocks/ianus_inc_holo/holoparticle"},
+
 	"elements": [
 		{
 			"name": "cube",

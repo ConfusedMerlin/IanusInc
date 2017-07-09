@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "custom": { "flip-v": true },
+    "model": "ianusinchq:ianus_inc_rocket_bullpgl.obj"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "base": {
+      "true": {},
+      "false": {}
+    },
+    "facing":{
+      "west":{},
+      "east":{},
+      "north":{},
+      "south":{}
+    }
+  }
+}

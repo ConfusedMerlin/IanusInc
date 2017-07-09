@@ -56,67 +56,6 @@ public class IanusIncTurret extends CustomBlock {
         return false;
     }
 
-    /*
-    @Override
-    public IBlockState getStateFromMeta(int meta)
-    {
-        IBlockState iblockstate = this.getDefaultState();
-
-        switch (meta)
-        {
-            case 1:
-                iblockstate = iblockstate.withProperty(FACING, EnumFacing.EAST);
-                break;
-            case 2:
-                iblockstate = iblockstate.withProperty(FACING, EnumFacing.WEST);
-                break;
-            case 3:
-                iblockstate = iblockstate.withProperty(FACING, EnumFacing.SOUTH);
-                break;
-            case 4:
-                iblockstate = iblockstate.withProperty(FACING, EnumFacing.NORTH);
-                break;
-            case 5:
-                iblockstate = iblockstate.withProperty(FACING, EnumFacing.DOWN);
-                break;
-            default:
-                iblockstate = iblockstate.withProperty(FACING, EnumFacing.UP);
-        }
-
-        return iblockstate;
-    }
-
-    @Override
-    public int getMetaFromState(IBlockState state)
-    {
-        int i = 0;
-
-        switch ((EnumFacing)state.getValue(FACING))
-        {
-            case EAST:
-                i = i | 1;
-                break;
-            case WEST:
-                i = i | 2;
-                break;
-            case SOUTH:
-                i = i | 3;
-                break;
-            case NORTH:
-                i = i | 4;
-                break;
-            case DOWN:
-                i = i | 5;
-                break;
-            case UP:
-            default:
-                i = i | 6;
-        }
-
-        return i;
-    }
-    */
-
     @Override
     public int getMetaFromState(IBlockState state) {
         int i = 0;
