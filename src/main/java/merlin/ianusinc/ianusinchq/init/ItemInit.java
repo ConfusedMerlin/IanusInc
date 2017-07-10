@@ -4,6 +4,7 @@ import merlin.ianusinc.ianusinchq.IanusIncHq;
 import merlin.ianusinc.ianusinchq.Reference;
 import merlin.ianusinc.ianusinchq.blocks.CustomNugget;
 import merlin.ianusinc.ianusinchq.items.CustomIngot;
+import merlin.ianusinc.ianusinchq.items.DedicatedBlockItem;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -38,6 +39,11 @@ public class ItemInit {
         ItemBlock itemblock = new ItemBlock(block);
         itemblock.setRegistryName(block.getRegistryName());
         itemList.add(itemblock);
+    }
+    public static void addDedicatedBlockItemToItems(DedicatedBlockItem item){
+        Item dedicatedItem = item;
+        item.setRegistryName(item.getMyBlock().getRegistryName());
+        itemList.add(item);
     }
 
 

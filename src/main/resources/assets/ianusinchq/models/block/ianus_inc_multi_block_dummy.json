@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ianusinchq:blocks/building/ianus_inc_multi_block_dummy"
+  }
+}
